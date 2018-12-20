@@ -27,5 +27,5 @@ public class Constantes {
     public static final int ALTO_LABEL = 30;
     public static final int ANCHO_IMAGEN = 240;
     public static final int ALTO_IMAGEN = 150;
-    public static final int ANCHO_SINOPSIS = 22;
+    public static final int ANCHO_SINOPSIS = 26;
 }

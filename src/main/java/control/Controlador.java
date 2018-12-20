@@ -13,6 +13,7 @@ import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import static javax.swing.JOptionPane.OK_OPTION;
@@ -30,9 +31,11 @@ public class Controlador implements ActionListener, MouseListener, DocumentListe
     private Origen origen;
 
     /*
-    Puntos opcionales:
-        Añadir una opción al usuario que permita recuperar el último elemento borrado
-        Añadir una opción a la aplicación que permita eliminar todos los datos del programa
+    Posibilidad:
+        En lugar de guardar imagenSeleccionada, guardar peliculaPantallla
+        asignar imagenSeleccionada a peliculaPantalla
+        guardar valoracion en peliculaPantalla
+        que coger pelicula modifique peliculaPantalla
      */
 
     public Controlador(Modelo modelo, Vista vista) {
@@ -203,11 +206,14 @@ public class Controlador implements ActionListener, MouseListener, DocumentListe
 
     @Override
     public void keyTyped(KeyEvent e) {
-        //TODO: Arreglar el SUPR
         JTextArea componente = (JTextArea) e.getSource();
         String texto = componente.getText();
         if (texto.length() > 0 && texto.length() % ANCHO_SINOPSIS == 0) {
-            if (e.getKeyChar() != KeyEvent.VK_BACK_SPACE) {
+            if (e.getKeyChar() != KeyEvent.VK_BACK_SPACE
+                    && e.getKeyChar() != KeyEvent.VK_DELETE
+                    && e.getKeyChar() != KeyEvent.VK_ENTER) {
+                // Si no esta borrando ni introduciendo un salto de linea,
+                // salta de linea al llegar al final de la caja
                 componente.append("\n");
             }
             vista.pack();
@@ -291,8 +297,12 @@ public class Controlador implements ActionListener, MouseListener, DocumentListe
     }
 
     private void guardarPelicula(Pelicula pelicula) {
-        modelo.guardarPelicula(pelicula);
-        origen = null;
+        try {
+            modelo.guardarPelicula(pelicula);
+            origen = null;
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 
     private void eliminarPelicula() {
@@ -315,8 +325,12 @@ public class Controlador implements ActionListener, MouseListener, DocumentListe
     private void deshacerUltimoBorrado() {
         Pelicula borrada = modelo.getUltimaBorrada();
         borrada.setId(0);
-        modelo.guardarPelicula(borrada);
-        cargarPelicula(borrada);
+        try {
+            modelo.guardarPelicula(borrada);
+            cargarPelicula(borrada);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 
 

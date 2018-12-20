@@ -7,32 +7,23 @@ import org.hibernate.query.Query;
 import util.HibernateUtil;
 import util.Util;
 
-
 import java.io.File;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import java.util.UUID;
 
-import static util.Constantes.*;
+import static util.Constantes.DEFAULT_IMAGE;
+import static util.Constantes.RUTA_IMAGENES;
 
 public class Modelo {
     private Pelicula ultimaBorrada;
-
-
-    @Override
-    protected void finalize() {
-        desconectar();
-    }
 
     public void conectar() {
         HibernateUtil.buildSessionFactory();
     }
 
     public void desconectar() {
+        limpiarImagenesSobrantes();
         HibernateUtil.closeSessionFactory();
     }
 
@@ -44,16 +35,17 @@ public class Modelo {
         return DEFAULT_IMAGE;
     }
 
-    public void guardarPelicula(Pelicula pelicula) {
-        System.out.println("ID Película a guardar " + pelicula.getId());
+    public void guardarPelicula(Pelicula pelicula) throws IOException {
         Session sesion = HibernateUtil.getCurrentSession();
         sesion.beginTransaction();
+        pelicula.setRutaImagen(copiarImagen(pelicula.getRutaImagen()));
+        System.out.println(pelicula.getRutaImagen());
         sesion.save(pelicula);
         sesion.getTransaction().commit();
         sesion.close();
     }
 
-    private void modificarPelicula (Pelicula pelicula) {
+    private void modificarPelicula (Pelicula pelicula) throws IOException {
         guardarPelicula(pelicula);
     }
 
@@ -87,15 +79,27 @@ public class Modelo {
     public void borrarTodo() {
         Session sesion = HibernateUtil.getCurrentSession();
         Transaction transaction = sesion.beginTransaction();
-
-        String hqlDeleteAll = "delete Pelicula";
-        int resul = sesion.createQuery("delete Pelicula").executeUpdate();
+        sesion.createQuery("delete Pelicula").executeUpdate();
         transaction.commit();
         sesion.close();
     }
 
     private void limpiarImagenesSobrantes() {
+        // Almacenar en una lista las imagenes que estan siendo usadas
+        ArrayList<String> imagenesUsadas = new ArrayList<>();
+        for (Pelicula pelicula: getPeliculas()) {
+            imagenesUsadas.add(pelicula.getRutaImagen());
+        }
 
+        // Comparar las imagenes usadas con las que hay en disco y borrar discrepancias
+        File[] imagenesDisco = new File(RUTA_IMAGENES).listFiles();
+        if (imagenesDisco != null) {
+            for (File imagenDisco : imagenesDisco) {
+                if (!imagenesUsadas.contains(imagenDisco.getPath())) {
+                    imagenDisco.delete();
+                }
+            }
+        }
     }
 
     private String copiarImagen (String rutaImagen) throws IOException {
@@ -105,6 +109,8 @@ public class Modelo {
         String rutaSalida = RUTA_IMAGENES + File.separator
                 + UUID.randomUUID().toString() + extension;
         Util.copiarFichero(rutaImagen, rutaSalida);
+
+        // Devuelve la ruta nueva para poder asignarla a la pelicula que se va a guardar
         return rutaSalida;
     }
 
