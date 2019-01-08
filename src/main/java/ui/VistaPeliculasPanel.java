@@ -179,7 +179,6 @@ public class VistaPeliculasPanel extends JFrame {
         panelBusqueda.add(tfBusqueda, gbcBusqueda);
 
 
-
         gbc.gridx = 2;
         gbc.gridy = 0;
         gbc.gridheight = 1;
