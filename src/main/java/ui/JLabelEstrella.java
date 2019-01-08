@@ -14,8 +14,8 @@ public class JLabelEstrella extends JLabel {
     public JLabelEstrella() {
         activa = true;
         actualizar();
-        numero = autoincrement;
         autoincrement++;
+        numero = autoincrement;
     }
 
     public void setActiva(boolean activa) {

@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5228819-51c3-4659-919e-abb1ed31514c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pruebas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/Modelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/6ac8217d-acda-4c91-81d9-ce29de5bbbed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Aplicacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Aplicacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pruebas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Controlador$Origen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Controlador$Origen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/control/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datos/Modelo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datos/Modelo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/6ac8217d-acda-4c91-81d9-ce29de5bbbed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/JLabelEstrella.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/JLabelEstrella.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/Vista.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +29,24 @@
     <session id="1081708261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="34" />
-          <entry key="jpg" value="4" />
+          <entry key="java" value="39" />
+          <entry key="jpg" value="5" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -42,20 +54,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Image" value="5" />
-          <entry key="JAVA" value="34" />
+          <entry key="Image" value="6" />
+          <entry key="JAVA" value="39" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8074" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="10231" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8074" />
+          <entry key="JAVA" value="10231" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -63,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datos/Modelo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+            <state relative-caret-position="1547">
+              <caret line="112" column="88" selection-start-line="112" selection-start-column="88" selection-end-line="112" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Constantes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="493">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -87,10 +101,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="442">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
                 <element signature="e#1085#1086#0" expanded="true" />
               </folding>
             </state>
@@ -100,39 +115,73 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/control/Controlador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+            <state relative-caret-position="4828">
+              <caret line="386" column="57" selection-start-line="386" selection-start-column="57" selection-end-line="386" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5415#5416#0" expanded="true" />
-                <element signature="e#5451#5452#0" expanded="true" />
+                <element signature="class#Origen#0;class#Controlador#0" />
+                <element signature="method#insertUpdate#0;class#Controlador#0" />
+                <element signature="method#removeUpdate#0;class#Controlador#0" />
+                <element signature="method#keyTyped#0;class#Controlador#0" />
                 <element signature="method#iniciarSesion#0;class#Controlador#0" />
+                <element signature="method#guardarPelicula#0;class#Controlador#0" />
                 <element signature="method#eliminarPelicula#0;class#Controlador#0" />
                 <element signature="method#eliminarTodo#0;class#Controlador#0" />
+                <element signature="method#deshacerUltimoBorrado#0;class#Controlador#0" />
+                <element signature="method#refrescarLista#0;class#Controlador#0" />
+                <element signature="method#colocarImagen#0;class#Controlador#0" />
+                <element signature="method#changedUpdate#0;class#Controlador#0" />
+                <element signature="method#mousePressed#0;class#Controlador#0" />
+                <element signature="method#mouseReleased#0;class#Controlador#0" />
+                <element signature="method#mouseEntered#0;class#Controlador#0" />
+                <element signature="method#mouseExited#0;class#Controlador#0" />
+                <element signature="method#windowOpened#0;class#Controlador#0" />
+                <element signature="method#windowClosed#0;class#Controlador#0" />
+                <element signature="method#windowIconified#0;class#Controlador#0" />
+                <element signature="method#windowDeiconified#0;class#Controlador#0" />
+                <element signature="method#windowActivated#0;class#Controlador#0" />
+                <element signature="method#windowDeactivated#0;class#Controlador#0" />
+                <element signature="method#keyPressed#0;class#Controlador#0" />
+                <element signature="method#keyReleased#0;class#Controlador#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/Vista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Aplicacion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="102">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,15 +223,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/afuera/datos/Modelo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controlador.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/ModeloManual.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pruebas.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Aplicacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Pelicula.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Constantes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/Vista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datos/Modelo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Aplicacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/Controlador.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datos/Modelo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pruebas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/Vista.java" />
       </list>
     </option>
   </component>
@@ -198,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,18 +305,27 @@
             <path>
               <item name="Peliculas_Hibernate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Peliculas_Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Peliculas_Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Peliculas_Hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545322193372" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545331079539" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2551724" />
@@ -274,18 +333,19 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AlumnoT\IdeaProjects\Peliculas_Hibernate\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui" />
+      <recent name="datos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AlumnoT\IdeaProjects\Peliculas_Hibernate\src\main\resources" />
       <recent name="C:\Users\AlumnoT\IdeaProjects\Peliculas_Hibernate\src\main\java\com\afuera" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="datos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\AlumnoT\IdeaProjects\Peliculas_Hibernate\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aplicacion">
+  <component name="RunManager" selected="Application.Vista">
     <configuration name="Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aplicacion" />
       <module name="Peliculas_Hibernate" />
@@ -315,12 +375,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Vista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Vista" />
+      <module name="Peliculas_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Aplicacion" />
       <item itemvalue="Application.Pruebas" />
+      <item itemvalue="Application.Vista" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vista" />
         <item itemvalue="Application.Aplicacion" />
         <item itemvalue="Application.Pruebas" />
       </list>
@@ -350,8 +425,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1601467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +436,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/hql/internal/ast/HqlSqlWalker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -507,10 +576,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/Vista.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/2ce1cd7d-cf3a-478b-a382-17b1101235d0.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/d2574d76-bc2c-44cf-83bb-011577a1978e.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/978d0fb0-e441-46cb-a9e9-74761a11e690.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/b4c6dade-49fb-4e37-9e64-f9f4702b45f5.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/48a27a11-1e52-4ac1-91d0-03c77398409d.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/images/6ac8217d-acda-4c91-81d9-ce29de5bbbed.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Aplicacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,51 +594,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Aplicacion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Modelo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1547">
+          <caret line="112" column="88" selection-start-line="112" selection-start-column="88" selection-end-line="112" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/images/2ce1cd7d-cf3a-478b-a382-17b1101235d0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/images/d2574d76-bc2c-44cf-83bb-011577a1978e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/images/978d0fb0-e441-46cb-a9e9-74761a11e690.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/images/b4c6dade-49fb-4e37-9e64-f9f4702b45f5.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Constantes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="442">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
             <element signature="e#1085#1086#0" expanded="true" />
           </folding>
         </state>
@@ -571,29 +635,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/Controlador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+        <state relative-caret-position="4828">
+          <caret line="386" column="57" selection-start-line="386" selection-start-column="57" selection-end-line="386" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-            <element signature="e#5451#5452#0" expanded="true" />
+            <element signature="class#Origen#0;class#Controlador#0" />
+            <element signature="method#insertUpdate#0;class#Controlador#0" />
+            <element signature="method#removeUpdate#0;class#Controlador#0" />
+            <element signature="method#keyTyped#0;class#Controlador#0" />
             <element signature="method#iniciarSesion#0;class#Controlador#0" />
+            <element signature="method#guardarPelicula#0;class#Controlador#0" />
             <element signature="method#eliminarPelicula#0;class#Controlador#0" />
             <element signature="method#eliminarTodo#0;class#Controlador#0" />
+            <element signature="method#deshacerUltimoBorrado#0;class#Controlador#0" />
+            <element signature="method#refrescarLista#0;class#Controlador#0" />
+            <element signature="method#colocarImagen#0;class#Controlador#0" />
+            <element signature="method#changedUpdate#0;class#Controlador#0" />
+            <element signature="method#mousePressed#0;class#Controlador#0" />
+            <element signature="method#mouseReleased#0;class#Controlador#0" />
+            <element signature="method#mouseEntered#0;class#Controlador#0" />
+            <element signature="method#mouseExited#0;class#Controlador#0" />
+            <element signature="method#windowOpened#0;class#Controlador#0" />
+            <element signature="method#windowClosed#0;class#Controlador#0" />
+            <element signature="method#windowIconified#0;class#Controlador#0" />
+            <element signature="method#windowDeiconified#0;class#Controlador#0" />
+            <element signature="method#windowActivated#0;class#Controlador#0" />
+            <element signature="method#windowDeactivated#0;class#Controlador#0" />
+            <element signature="method#keyPressed#0;class#Controlador#0" />
+            <element signature="method#keyReleased#0;class#Controlador#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/images/48a27a11-1e52-4ac1-91d0-03c77398409d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Modelo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/Vista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
