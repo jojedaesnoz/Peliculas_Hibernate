@@ -17,6 +17,11 @@ import static util.Constantes.RUTA_IMAGENES;
 
 public class Modelo {
     private Pelicula ultimaBorrada;
+    private ArrayList<Pelicula> peliculas;
+
+    {
+        peliculas = new ArrayList<>();
+    }
 
     public void conectar() {
         HibernateUtil.buildSessionFactory();
@@ -43,24 +48,53 @@ public class Modelo {
         sesion.save(pelicula);
         sesion.getTransaction().commit();
         sesion.close();
+
+        cargarPeliculas();
     }
 
     private void modificarPelicula (Pelicula pelicula) throws IOException {
         guardarPelicula(pelicula);
+        cargarPeliculas();
     }
 
+//    public ArrayList<Pelicula> getPeliculas() {
+//        Query query = HibernateUtil.getCurrentSession().createQuery("FROM Pelicula");
+//        return (ArrayList<Pelicula>) query.list();
+//    }
+
     public ArrayList<Pelicula> getPeliculas() {
+        if (peliculas.isEmpty()) {
+            cargarPeliculas();
+        }
+        return peliculas;
+    }
+
+    private void cargarPeliculas() {
         Query query = HibernateUtil.getCurrentSession().createQuery("FROM Pelicula");
-        return (ArrayList<Pelicula>) query.list();
+        peliculas = (ArrayList<Pelicula>) query.list();
     }
 
     public ArrayList<Pelicula> getPeliculas(String busqueda) {
-        Query query = HibernateUtil.getCurrentSession().
-                createQuery("FROM Pelicula" + " p WHERE p.titulo LIKE :busqueda");
-        query.setParameter("busqueda", "%" + busqueda + "%");
+        if (peliculas.isEmpty()) {
+            cargarPeliculas();
+        }
 
-        return  (ArrayList<Pelicula>) query.list();
+        ArrayList<Pelicula> resultado = new ArrayList<>();
+        for (Pelicula pelicula : peliculas) {
+            if (pelicula.getTitulo().contains(busqueda)) {
+                resultado.add(pelicula);
+            }
+        }
+        return resultado;
     }
+
+//    public ArrayList<Pelicula> getPeliculas(String busqueda) {
+//        Query query = HibernateUtil.getCurrentSession().
+//                createQuery("FROM Pelicula" + " p WHERE p.titulo LIKE :busqueda");
+//        query.setParameter("busqueda", "%" + busqueda + "%");
+//
+//        return  (ArrayList<Pelicula>) query.list();
+//    }
 
     public void eliminarPelicula(Pelicula peliculaABorrar) {
         Session sesion = HibernateUtil.getCurrentSession();
@@ -69,6 +103,8 @@ public class Modelo {
         sesion.getTransaction().commit();
         sesion.close();
         ultimaBorrada = peliculaABorrar;
+
+        cargarPeliculas();
     }
 
 

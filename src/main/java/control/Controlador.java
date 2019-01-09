@@ -2,7 +2,7 @@ package control;
 
 import base.Pelicula;
 import datos.Modelo;
-import ui.JLabelEstrella;
+import ui.custom.JLabelEstrella;
 import ui.VistaPeliculas;
 import util.Util;
 

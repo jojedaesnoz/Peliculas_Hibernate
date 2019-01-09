@@ -1,17 +1,14 @@
 package ui;
 
 import base.Pelicula;
-import ui.custom.BarraBusqueda;
 import ui.custom.JLabelEstrella;
-import ui.custom.PanelEntrada;
-import ui.custom.PanelValoracion;
 
 import javax.swing.*;
 import java.awt.*;
 
 import static util.Constantes.*;
 
-public class VistaPeliculasPanel extends JPanel {
+public class SuperVista extends JPanel{
 
     // LISTA
     public DefaultListModel<Pelicula> modeloPeliculas;
@@ -21,12 +18,14 @@ public class VistaPeliculasPanel extends JPanel {
     public JButton btNuevo, btGuardar, btModificar, btCancelar, btEliminar, btDeshacer, btEliminarTodo;
 
     // LABELS CAJAS E IMAGEN
-    private PanelEntrada titulo, sinopsis, valoracion, recaudacion;
-    public PanelValoracion panelValoracion;
-    public BarraBusqueda barraBusqueda;
+    private JLabel lTitulo, lSinopsis, lValoracion, lRecaudacion;
+    public JTextArea taTitulo, tfValoracion, taRecaudacion, taSinopsis;
+    public JPanel panelValoracion;
+    public JLabelEstrella[] estrellas;
+    public JTextField tfBusqueda;
     public JLabel lImagen;
 
-    public VistaPeliculasPanel() {
+    public SuperVista() {
         super();
         setLayout(new BorderLayout());
         inicializarComponentes();
@@ -42,17 +41,18 @@ public class VistaPeliculasPanel extends JPanel {
     }
 
     private void inicializarComponentes() {
+        // LABELS
+        lTitulo = new JLabel("TÍTULO", SwingConstants.CENTER);
+        lSinopsis = new JLabel("SINOPSIS", SwingConstants.CENTER);
+        lValoracion = new JLabel("VALORACIÓN", SwingConstants.CENTER);
+        lRecaudacion = new JLabel("RECAUDACIÓN", SwingConstants.CENTER);
 
-        // ENTRADAS
-        titulo = new PanelEntrada<>(new JTextField());
-        sinopsis = new PanelEntrada<>(new JTextField());
-        valoracion = new PanelEntrada<>(new PanelValoracion());
-        recaudacion = new PanelEntrada<>(new JTextField());
-
-        titulo.setDescripcion("TÍTULO");
-        sinopsis.setDescripcion("SINOPSIS");
-        valoracion.setDescripcion("VALORACIÓN");
-        recaudacion.setDescripcion("RECAUDACIÓN");
+        // CAJAS
+        taTitulo = new JTextArea();
+        taSinopsis = new JTextArea();
+        tfValoracion = new JTextArea();
+        taRecaudacion = new JTextArea();
+        tfBusqueda = new JTextField();
 
         // IMAGEN
         lImagen = new JLabel();

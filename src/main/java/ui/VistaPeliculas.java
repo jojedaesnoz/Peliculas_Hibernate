@@ -1,6 +1,7 @@
 package ui;
 
 import base.Pelicula;
+import ui.custom.JLabelEstrella;
 
 import javax.swing.*;
 import java.awt.*;

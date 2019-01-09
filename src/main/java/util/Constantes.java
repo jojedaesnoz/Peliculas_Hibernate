@@ -28,4 +28,9 @@ public class Constantes {
     public static final int ANCHO_IMAGEN = 240;
     public static final int ALTO_IMAGEN = 150;
     public static final int ANCHO_SINOPSIS = 26;
+
+    public static final String COLOR_FONDO = "#893168";
+    public static final String COLOR_BOTON = "#4a1942";
+    public static final String COLOR_TEXTO = "#ffffff";
+    public static final String COLOR_BORDE = "#050404";
 }

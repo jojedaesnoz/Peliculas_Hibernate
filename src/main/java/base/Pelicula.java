@@ -29,6 +29,10 @@ public class Pelicula implements Serializable {
     @Column(name="imagen")
     private String rutaImagen;
 
+//    @ManyToOne
+//    @JoinColumn(name="id_director")
+//    private Director director;
+
     public String getTitulo() {
         return titulo;
     }
