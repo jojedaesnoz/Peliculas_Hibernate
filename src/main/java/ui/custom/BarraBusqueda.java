@@ -32,4 +32,8 @@ public class BarraBusqueda extends JPanel {
 
         tfBusqueda = new JTextField();
     }
+
+    public JTextField getTfBusqueda() {
+        return tfBusqueda;
+    }
 }

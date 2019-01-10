@@ -2,35 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5228819-51c3-4659-919e-abb1ed31514c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AAA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/SuperVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wip/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wip/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/PanelContenido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pruebas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Estrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wip/Estrella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wip/Genero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Pelicula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/Modelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/custom/JLabelEstrella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/Vista.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Constantes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Pelicula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pruebas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/datos/Modelo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datos/Modelo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/JLabelEstrella.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/Vista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/Vista.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/VistaPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/VistaPeliculas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/VistaPeliculasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/VistaPeliculasPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Constantes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/custom/BarraBusqueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/custom/BarraBusqueda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/custom/Botonera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/custom/Botonera.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,18 +30,19 @@
     <session id="1081708261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +50,7 @@
           <entry key="AAA" value="1" />
           <entry key="INFO" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="62" />
+          <entry key="java" value="80" />
           <entry key="jpg" value="5" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
@@ -72,7 +60,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="80" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="5" />
         </counts>
@@ -81,13 +69,13 @@
         <counts>
           <entry key="AAA" value="28" />
           <entry key="dummy" value="24" />
-          <entry key="java" value="14394" />
+          <entry key="java" value="19280" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14394" />
+          <entry key="JAVA" value="19280" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="XML" value="8" />
         </counts>
@@ -96,11 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/SuperVista.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/PanelContenido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="217">
+              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,19 +96,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="187">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,21 +147,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-918">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <folding>
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/Controlador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="280">
+              <caret line="407" column="4" lean-forward="true" selection-start-line="407" selection-start-column="4" selection-end-line="412" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
+                <element signature="class#Origen#0;class#Controlador#0" />
+                <element signature="method#insertUpdate#0;class#Controlador#0" />
+                <element signature="method#removeUpdate#0;class#Controlador#0" />
+                <element signature="method#keyTyped#0;class#Controlador#0" />
+                <element signature="method#iniciarSesion#0;class#Controlador#0" />
+                <element signature="method#guardarPelicula#0;class#Controlador#0" />
+                <element signature="method#eliminarPelicula#0;class#Controlador#0" />
+                <element signature="method#eliminarTodo#0;class#Controlador#0" />
+                <element signature="method#refrescarLista#0;class#Controlador#0" />
+                <element signature="method#changedUpdate#0;class#Controlador#0" />
+                <element signature="method#mousePressed#0;class#Controlador#0" />
+                <element signature="method#mouseReleased#0;class#Controlador#0" />
+                <element signature="method#mouseEntered#0;class#Controlador#0" />
+                <element signature="method#mouseExited#0;class#Controlador#0" />
+                <element signature="method#windowOpened#0;class#Controlador#0" />
+                <element signature="method#windowClosed#0;class#Controlador#0" />
+                <element signature="method#windowIconified#0;class#Controlador#0" />
+                <element signature="method#windowDeiconified#0;class#Controlador#0" />
+                <element signature="method#windowActivated#0;class#Controlador#0" />
+                <element signature="method#windowDeactivated#0;class#Controlador#0" />
+                <element signature="method#keyPressed#0;class#Controlador#0" />
+                <element signature="method#keyReleased#0;class#Controlador#0" />
               </folding>
             </state>
           </provider>
@@ -152,8 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="100" column="60" lean-forward="true" selection-start-line="100" selection-start-column="60" selection-end-line="101" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,28 +248,32 @@
         <option value="$PROJECT_DIR$/src/main/java/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Aplicacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/JLabelEstrella.java" />
-        <option value="$PROJECT_DIR$/src/main/java/control/Controlador.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/AAA" />
         <option value="$PROJECT_DIR$/src/main/java/base/Director1N.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Persona.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Constantes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pruebas.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/Vista.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Pelicula.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/Modelo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/SuperVista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/custom/BotoneraListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/Controlador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pruebas.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/PanelContenido.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="580" />
+    <option name="x" value="570" />
+    <option name="y" value="208" />
     <option name="width" value="1107" />
     <option name="height" value="1017" />
   </component>
@@ -238,6 +283,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -342,12 +389,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547064762378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547144441224" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2551724" />
@@ -385,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aplicacion">
+  <component name="RunManager" selected="Application.Pruebas">
     <configuration name="Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aplicacion" />
       <module name="Peliculas_Hibernate" />
@@ -413,16 +458,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VistaPeliculas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.VistaPeliculas" />
+      <module name="Peliculas_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Aplicacion" />
       <item itemvalue="Application.Pruebas" />
       <item itemvalue="Application.Vista" />
+      <item itemvalue="Application.VistaPeliculas" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Aplicacion" />
-        <item itemvalue="Application.Vista" />
         <item itemvalue="Application.Pruebas" />
+        <item itemvalue="Application.Aplicacion" />
+        <item itemvalue="Application.VistaPeliculas" />
+        <item itemvalue="Application.Vista" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +512,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20537898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16625917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +521,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -635,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,10 +712,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Pelicula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Modelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/JLabelEstrella.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/Vista.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/BotoneraListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/SuperVista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/Controlador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4828">
-          <caret line="386" column="57" selection-start-line="386" selection-start-column="57" selection-end-line="386" selection-end-column="57" />
+        <state relative-caret-position="280">
+          <caret line="407" column="4" lean-forward="true" selection-start-line="407" selection-start-column="4" selection-end-line="412" selection-end-column="5" />
           <folding>
             <element signature="class#Origen#0;class#Controlador#0" />
             <element signature="method#insertUpdate#0;class#Controlador#0" />
@@ -671,9 +799,7 @@
             <element signature="method#guardarPelicula#0;class#Controlador#0" />
             <element signature="method#eliminarPelicula#0;class#Controlador#0" />
             <element signature="method#eliminarTodo#0;class#Controlador#0" />
-            <element signature="method#deshacerUltimoBorrado#0;class#Controlador#0" />
             <element signature="method#refrescarLista#0;class#Controlador#0" />
-            <element signature="method#colocarImagen#0;class#Controlador#0" />
             <element signature="method#changedUpdate#0;class#Controlador#0" />
             <element signature="method#mousePressed#0;class#Controlador#0" />
             <element signature="method#mouseReleased#0;class#Controlador#0" />
@@ -691,88 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/Pelicula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/BarraBusqueda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Modelo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3019#3020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/JLabelEstrella.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/Botonera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/Vista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/SuperVista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/VistaPeliculasPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="221">
+          <caret line="100" column="60" lean-forward="true" selection-start-line="100" selection-start-column="60" selection-end-line="101" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -781,28 +829,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/PanelValoracion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="311">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pruebas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/custom/PanelEntrada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="187">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/PanelContenido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

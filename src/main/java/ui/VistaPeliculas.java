@@ -30,6 +30,10 @@ public class VistaPeliculas extends JFrame {
     public JTextField tfBusqueda;
     public JLabel lImagen;
 
+    public static void main(String[] args) {
+        VistaPeliculas vs = new VistaPeliculas();
+    }
+
     public VistaPeliculas() {
         inicializarComponentes();
         colocarComponentes();

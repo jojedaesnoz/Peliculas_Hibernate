@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class PanelEntrada <T extends JComponent>  extends JPanel{
-    private JLabel descripcion;
+    private JLabel label;
     private T entrada;
     private JLabel mensaje;
     
@@ -18,11 +18,13 @@ public class PanelEntrada <T extends JComponent>  extends JPanel{
     private void colocarComponentes() {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(5, 5, 0, 5);
 
         gbc.fill = GridBagConstraints.VERTICAL;
         gbc.gridx = 0;
         gbc.gridy = 0;
-        add(descripcion, gbc);
+        gbc.weightx = 0;
+        add(label, gbc);
 
         gbc.gridx = 2;
         gbc.gridy = 0;
@@ -36,12 +38,12 @@ public class PanelEntrada <T extends JComponent>  extends JPanel{
     }
 
     private void inicializar() {
-        descripcion = new JLabel();
+        label = new JLabel();
         mensaje = new JLabel();
     }
     
-    public void setDescripcion(String descripcion) {
-        this.descripcion.setText(descripcion);
+    public void setLabel(String label) {
+        this.label.setText(label);
     }
     
     public void setMensaje(String mensaje) {
@@ -50,5 +52,25 @@ public class PanelEntrada <T extends JComponent>  extends JPanel{
     
     public T getEntrada() {
         return entrada;
+    }
+
+    public JLabel getLabel() {
+        return label;
+    }
+
+    public void setLabel(JLabel label) {
+        this.label = label;
+    }
+
+    public void setEntrada(T entrada) {
+        this.entrada = entrada;
+    }
+
+    public JLabel getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(JLabel mensaje) {
+        this.mensaje = mensaje;
     }
 }

@@ -15,6 +15,11 @@ public class PanelValoracion extends JPanel {
     public PanelValoracion() {
         super();
         inicializar();
+        setLayout(new GridLayout(1, 5, 10, 0));
+        for (JLabel label : estrellas) {
+            add(label);
+        }
+        setValoracion(5);
     }
 
     private void inicializar() {
@@ -43,7 +48,7 @@ public class PanelValoracion extends JPanel {
 
         // Mostrarlo graficamente
         int i = 0;
-        for (i = 0; i < valoracion - 1; i++) {
+        for (i = 0; i < valoracion; i++) {
             estrellas[i].setIcon(imgOn);
         }
         for (i = i; i < estrellas.length; i++) {
