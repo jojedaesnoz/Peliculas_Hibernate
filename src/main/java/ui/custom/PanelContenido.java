@@ -5,8 +5,10 @@ import ui.custom.PanelEntrada;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 import java.util.ArrayList;
 import static java.awt.GridBagConstraints.*;
+import static util.Constantes.DEFAULT_IMAGE;
 
 public class PanelContenido<T> extends JPanel {
 
@@ -49,14 +51,19 @@ public class PanelContenido<T> extends JPanel {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(5, 10, 10, 10);
+        int tamImagen = 2;
 
         // Colocar imagen
         gbc.gridx = 0;
         gbc.gridy = 0;
+        gbc.gridheight = tamImagen;
+        gbc.anchor = GridBagConstraints.CENTER;
         gbc.weightx = 1;
         gbc.weighty = 1;
         gbc.fill = BOTH;
         add(labelImagen, gbc);
+        gbc.gridheight = 1;
+        gbc.anchor = GridBagConstraints.WEST;
 
         // Colocar barra de busqueda
         gbc.gridwidth = 2;
@@ -70,7 +77,7 @@ public class PanelContenido<T> extends JPanel {
         // Colocar entradas
         gbc.gridwidth = 1;
         gbc.gridx = 0;
-        gbc.gridy = 0;
+        gbc.gridy = tamImagen;
         gbc.weightx = 1;
         gbc.weighty = 0;
         gbc.fill = HORIZONTAL;
@@ -84,17 +91,22 @@ public class PanelContenido<T> extends JPanel {
         // Colocar lista
         gbc.gridx = 1;
         gbc.gridy = 1;
-        gbc.gridheight = entradas.size();
+        gbc.gridheight = entradas.size() + tamImagen;
         gbc.gridwidth = 2;
         gbc.weightx = 1;
         gbc.weighty = 1;
         gbc.fill = BOTH;
         lista.setPreferredSize(new Dimension(ANCHO_LISTA, 0));
         add(lista, gbc);
+
+        colocarImagen("");
     }
 
     public void colocarImagen(String imagen) {
         // TODO: Poner constantes
+        if (! new File(imagen).exists()) {
+            imagen = DEFAULT_IMAGE;
+        }
         ImageIcon imageIcon = new ImageIcon(imagen);
         Image image = imageIcon.getImage().getScaledInstance(253, -1, Image.SCALE_DEFAULT);
         labelImagen.setIcon(new ImageIcon(image));

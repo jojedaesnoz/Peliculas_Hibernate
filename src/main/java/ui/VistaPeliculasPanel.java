@@ -15,7 +15,7 @@ public class VistaPeliculasPanel extends JPanel {
     public JList<Pelicula> listaPeliculas;
 
     // BOTONERA
-    private Botonera botonera;
+    private BotoneraCRUD botoneraCRUD;
 
     // LABELS CAJAS E IMAGEN
     private PanelEntrada titulo, sinopsis, valoracion, recaudacion;
@@ -37,7 +37,7 @@ public class VistaPeliculasPanel extends JPanel {
         // Entradas
         titulo = new PanelEntrada<>(new JTextField());
         sinopsis = new PanelEntrada<>(new JTextField());
-        valoracion = new PanelEntrada<>(new PanelValoracion());
+        valoracion = new PanelEntrada<>(new PanelValoracion(5));
         recaudacion = new PanelEntrada<>(new JTextField());
         titulo.setLabel("TÍTULO");
         sinopsis.setLabel("SINOPSIS");
@@ -47,11 +47,11 @@ public class VistaPeliculasPanel extends JPanel {
         // Imagen
         lImagen = new JLabel();
 
-        // Botonera
-        botonera = new Botonera();
+        // BotoneraCRUD
+        botoneraCRUD = new BotoneraCRUD();
 
         // Panel Valoracion
-        panelValoracion = new PanelValoracion();
+        panelValoracion = new PanelValoracion(5);
 
         // Barra Busqueda
         barraBusqueda = new BarraBusqueda();
@@ -76,8 +76,8 @@ public class VistaPeliculasPanel extends JPanel {
         lImagen.setMinimumSize(new Dimension(ANCHO_IMAGEN, ALTO_IMAGEN));
         lImagen.setMaximumSize(lImagen.getMinimumSize());
 
-        // Botonera
-        for (JButton boton: botonera.getBotones()) {
+        // BotoneraCRUD
+        for (JButton boton: botoneraCRUD.getBotones()) {
             boton.setBackground(Color.decode(COLOR_BOTON));
             boton.setForeground(Color.decode(COLOR_TEXTO));
             boton.setBorder(BorderFactory.createLineBorder(Color.decode(COLOR_BORDE), 1));

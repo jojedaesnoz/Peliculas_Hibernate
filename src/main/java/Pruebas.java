@@ -15,7 +15,7 @@ public class Pruebas extends JFrame{
 
         titulo = new PanelEntrada<>(new JTextField());
         sinopsis = new PanelEntrada<>(new JTextField());
-        valoracion = new PanelEntrada<>(new PanelValoracion());
+        valoracion = new PanelEntrada<>(new PanelValoracion(5));
         recaudacion = new PanelEntrada<>(new JTextField());
         titulo.setLabel("TÍTULO");
         sinopsis.setLabel("SINOPSIS");
